@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header h1 {
+    padding: 0.5rem;
+}
+
+header {
+    padding: 2rem;
+    background-color: #2a2a2a;
+    color: #ffd700;
+    text-align: center;
+}
+
+.intro-section {
+    padding: 3.5rem;
+    display: flex; /* Habilita o Flexbox */
+    align-items: center; /* Alinha verticalmente o texto e a imagem */
+    gap: 40px; /* Espaço entre a imagem e o texto */
+    margin: 20px; /* Adiciona um pouco de espaço ao redor da seção */
+}
+
+.intro-section h2 {
+    position: absolute; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    top: 20%; 
+    left: 11%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+
+.intro-section img {
+    width: 15rem;
+    border-radius: 5px;
+    margin-left: auto; 
+}
+  
+.intro-section p {
+    flex: 1; 
+    text-align: justify; 
+}
