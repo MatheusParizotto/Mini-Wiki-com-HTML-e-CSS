@@ -30,6 +30,7 @@ header {
     align-items: center; /* Alinha verticalmente o texto e a imagem */
     gap: 40px; /* Espaço entre a imagem e o texto */
     margin: 20px; /* Adiciona um pouco de espaço ao redor da seção */
+    margin-right: 800px;
 }
 
 .intro-section h2 {
@@ -37,7 +38,7 @@ header {
     font-size: 1.5rem;
     font-weight: bold;
     top: 20%; 
-    left: 11%; 
+    left: 12.7%; 
     transform: translate(-50%, -50%); 
     text-align: center;
 }
@@ -47,8 +48,60 @@ header {
     border-radius: 5px;
     margin-left: auto; 
 }
+
+.intro-section fieldset {
+    border: 2px solid #ff4500;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
   
 .intro-section p {
     flex: 1; 
     text-align: justify; 
+}
+
+.warthog-section img {
+    width: 15rem;
+    border-radius: 5px;
+    margin-left: auto; 
+}
+
+.warthog-section fieldset {
+    border: 2px solid #ff4500;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+
+.breachcutter-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.breachcutter-section img {
+    width: 15rem;
+    border-radius: 5px;
+}
+
+.breachcutter-section fieldset {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border: 2px solid #ff4500;
+    border-radius: 5px;
+    max-width: 600px; /* Limita a largura do fieldset */
+}
+
+.breachcutter-section fieldset img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.breachcutter-section fieldset p {
+    text-align: justify;
 }
