@@ -8,3 +8,5 @@
 - Clone o repositório;
 - Baixe a extensão Live Server do VsCode;
 - Rode e seja feliz.
+
+Ps: Roda ainda não, pq ainda tá feio demais
