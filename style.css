@@ -53,7 +53,6 @@ header {
     border: 2px solid #ff4500;
     border-radius: 5px;
     padding: 1rem;
-
 }
   
 .intro-section p {
@@ -74,15 +73,15 @@ header {
     font-weight: bold;
     text-align: center;
     left: 87%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -230%); 
 }
 
-.warthog-section > img {
+.warthog-section img {
     position: relative;
     width: 15rem;
     border-radius: 5px;
-    align-self: center;
     left: 80%;
+    transform: translate(0%, -10%);
 }
 
 .warthog-section fieldset {
@@ -94,13 +93,7 @@ header {
     border: 2px solid #ff4500;
     border-radius: 5px;
     padding: 1rem;
-    right: -10%;
-}
-
-.warthog-section fieldset img {
-    max-width: 200px;
-    height: auto;
-    border-radius: 8px;
+    transform: translate(60%, -10%);
 }
 
 .warthog-section fieldset p {
@@ -124,14 +117,15 @@ header {
     text-align: center;
     top: 110%;
     left: 12.7%; 
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -600%); 
 }
 
 .breachcutter-section img {
     width: 15rem;
     border-radius: 5px;
     margin-right: auto; 
-    left: 5%;
+    left: 50%;
+    transform: translate(0%,  25%);
 }
 
 .breachcutter-section fieldset {
@@ -143,12 +137,7 @@ header {
     border: 2px solid #ff4500;
     border-radius: 5px;
     padding: 1rem;
-}
-
-.breachcutter-section fieldset img {
-    max-width: 200px;
-    height: auto;
-    border-radius: 8px;
+    transform: translate(-5%, 30%);
 }
 
 .breachcutter-section fieldset p {
